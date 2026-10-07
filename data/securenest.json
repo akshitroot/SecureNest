@@ -1,0 +1,1305 @@
+{
+  "users": [
+    {
+      "id": "user-a-1111",
+      "email": "usera@securenest.internal",
+      "password_hash": "48f56f816d5305ab1d32b5a7454fba35:2fa93f304fe2dbf58260df54f57d45f4487cb9719bdd1d47f905da2f4c26f1678c36a138b8290ef6382b87813eabd29e13f0539cb93c927050778288b7b8450f",
+      "full_name": "Alex Rivera Updated",
+      "avatar_url": "/api/profile/avatar/user-a-1111?t=1791349315823",
+      "auth_provider": "email",
+      "role": "user",
+      "created_at": "2025-01-10T08:00:00.000Z",
+      "updated_at": "2026-10-07T05:01:55.823Z"
+    },
+    {
+      "id": "user-b-2222",
+      "email": "userb@securenest.internal",
+      "password_hash": "07085f56f20246032174bec67b01bb8b:07d94eef8ca3ef372f9474bd0687861ee88eee2c1af75466f5e3fea13bd10e5b056ecbdcec5f4e2e341cc971538f80030bd1b5ac9fb7b1ab043f1f37a0dc2112",
+      "full_name": "Morgan Vance",
+      "avatar_url": "",
+      "auth_provider": "email",
+      "role": "user",
+      "created_at": "2025-02-15T10:00:00.000Z",
+      "updated_at": "2026-10-07T05:01:55.793Z"
+    },
+    {
+      "id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "email": "akshitroot@gmail.com",
+      "password_hash": "b8c1853b158c14b3059f30212ea07a3c:5605391d343bc82823bd379d8fc436ac857f14f9e25711c5d8982b2b252a5f8140be7f572399bbc51bae15a3ad856a46e333fde00c846efe36e38d18cd0e669d",
+      "full_name": "the007",
+      "avatar_url": "https://api.dicebear.com/7.x/initials/svg?seed=the007",
+      "auth_provider": "email",
+      "role": "user",
+      "created_at": "2026-10-06T07:24:43.613Z",
+      "updated_at": "2026-10-06T08:08:40.887Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "prof-a-1111",
+      "user_id": "user-a-1111",
+      "display_name": "Alex Rivera Updated",
+      "storage_quota_bytes": 107374182400,
+      "storage_used_bytes": 2084294,
+      "two_factor_enabled": true,
+      "security_score": 92,
+      "last_login_at": "2026-10-07T05:01:55.727Z",
+      "updated_at": "2026-10-07T05:01:55.823Z",
+      "avatar_url": "/api/profile/avatar/user-a-1111?t=1791349315823"
+    },
+    {
+      "id": "prof-b-2222",
+      "user_id": "user-b-2222",
+      "display_name": "Morgan Vance",
+      "storage_quota_bytes": 107374182400,
+      "storage_used_bytes": 0,
+      "two_factor_enabled": false,
+      "security_score": 74,
+      "last_login_at": "2026-10-07T05:01:55.787Z",
+      "updated_at": "2026-10-07T05:01:55.793Z",
+      "avatar_url": ""
+    },
+    {
+      "id": "822e1c60-8cfa-4320-96d7-f2c2ae70403d",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "display_name": "the007",
+      "storage_quota_bytes": 107374182400,
+      "storage_used_bytes": 7948392,
+      "two_factor_enabled": false,
+      "security_score": 75,
+      "last_login_at": "2026-10-06T08:07:45.458Z",
+      "updated_at": "2026-10-06T08:08:40.887Z"
+    }
+  ],
+  "folders": [
+    {
+      "id": "1a587db8-460f-4e7c-96fc-922640b0e0be",
+      "user_id": "user-a-1111",
+      "parent_id": null,
+      "name": "new file",
+      "color": "#7c3aed",
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:22:31.648Z",
+      "updated_at": "2026-10-06T07:22:31.648Z"
+    }
+  ],
+  "files": [
+    {
+      "id": "7ebfe2a7-71fe-4787-a866-2d17572c64ca",
+      "user_id": "user-a-1111",
+      "folder_id": null,
+      "name": "Test-Doc-1.txt",
+      "original_name": "Test-Doc-1.txt",
+      "mime_type": "text/plain",
+      "file_category": "Documents",
+      "size_bytes": 19,
+      "storage_path": "user-a-1111/63d76248-b76d-4042-b109-656ba34137b0.dat",
+      "checksum_sha256": "396295224cf0a7ed63e51358407ae274ab62b06df454172d36fd6e7cd8f2e34b",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:07:32.412Z",
+      "updated_at": "2026-10-06T07:07:32.412Z"
+    },
+    {
+      "id": "3b79bff2-71bf-45e8-a430-be952aa15668",
+      "user_id": "user-a-1111",
+      "folder_id": null,
+      "name": "3.pdf",
+      "original_name": "3.pdf",
+      "mime_type": "application/pdf",
+      "file_category": "Documents",
+      "size_bytes": 454501,
+      "storage_path": "user-a-1111/2ef92c2e-be4a-48fc-bc07-ce7449a4b55d.dat",
+      "checksum_sha256": "870e9817ce68f3fb8520b9aa74ea9b4c7b54fb35223950c48587f20defbc5437",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:21:19.599Z",
+      "updated_at": "2026-10-06T07:21:19.599Z"
+    },
+    {
+      "id": "895c7b40-8100-4298-bf51-f63705922fe7",
+      "user_id": "user-a-1111",
+      "folder_id": null,
+      "name": "index.html",
+      "original_name": "index.html",
+      "mime_type": "text/html",
+      "file_category": "Documents",
+      "size_bytes": 4126,
+      "storage_path": "user-a-1111/0ff3b6f7-9928-4ee9-bc0d-20201c326544.dat",
+      "checksum_sha256": "1f1c8acef99ac1af9267f33a1524f87f05ac166411938b3a116fedb100397b0b",
+      "is_favorite": true,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:21:57.046Z",
+      "updated_at": "2026-10-06T07:22:06.843Z"
+    },
+    {
+      "id": "c452adcc-52f7-46c6-bca1-a32109216587",
+      "user_id": "user-a-1111",
+      "folder_id": "1a587db8-460f-4e7c-96fc-922640b0e0be",
+      "name": "acb25688-5c26-4042-8410-f563168fc8da.png",
+      "original_name": "acb25688-5c26-4042-8410-f563168fc8da.png",
+      "mime_type": "image/png",
+      "file_category": "Image",
+      "size_bytes": 1625623,
+      "storage_path": "user-a-1111/febd08d1-4c20-4092-ac07-aea7728e9f7d.dat",
+      "checksum_sha256": "e4ad13406215e1e20b4765bec2c9583e73c77f1ad483529cd57a0dbdac8698cf",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:23:34.940Z",
+      "updated_at": "2026-10-06T07:23:46.242Z"
+    },
+    {
+      "id": "c249128e-a971-4cff-8823-1a958abf3190",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "folder_id": null,
+      "name": "grub6-a729f54556016bb4dc1e9210ace0df3d.webp",
+      "original_name": "grub6-a729f54556016bb4dc1e9210ace0df3d.webp",
+      "mime_type": "image/webp",
+      "file_category": "Image",
+      "size_bytes": 27210,
+      "storage_path": "4fa69fc4-f540-49c2-97d0-58524af865ee/1bba7a46-e0cb-4f99-9bb9-62eab59cf7d7.dat",
+      "checksum_sha256": "276d9d574fbc3a0a17d647dbe36e463b92c2e01b5e7b5aef1f830b73ccf691d8",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:51:40.834Z",
+      "updated_at": "2026-10-06T07:51:40.834Z"
+    },
+    {
+      "id": "b1465207-bedb-444e-a348-d6183ae1bad6",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "folder_id": null,
+      "name": "NEWUS (3).pdf",
+      "original_name": "NEWUS (3).pdf",
+      "mime_type": "application/pdf",
+      "file_category": "Documents",
+      "size_bytes": 7918932,
+      "storage_path": "4fa69fc4-f540-49c2-97d0-58524af865ee/f04ed050-85a1-4293-89db-c6d394b0311b.dat",
+      "checksum_sha256": "e405c1d2fdd6124bdee53f5c5a4b8d3a97d20864320f5bfafeca432c727b849e",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T07:53:26.713Z",
+      "updated_at": "2026-10-06T07:53:26.713Z"
+    },
+    {
+      "id": "31f9c326-1bc9-47b2-be92-a35eeda5cc33",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "folder_id": null,
+      "name": "f9882df90f2f21eb11e39a7f978fe156f31eacfa.dxs",
+      "original_name": "f9882df90f2f21eb11e39a7f978fe156f31eacfa.dxs",
+      "mime_type": "application/octet-stream",
+      "file_category": "Other",
+      "size_bytes": 2250,
+      "storage_path": "4fa69fc4-f540-49c2-97d0-58524af865ee/3652a084-b57e-468f-8011-9beb27762de1.dat",
+      "checksum_sha256": "377e9a4154a1c34b22ad5e655e33d0a4b88b0aff809a3cace499b7803fce0c09",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T08:08:10.792Z",
+      "updated_at": "2026-10-06T08:08:10.792Z"
+    },
+    {
+      "id": "8190c2ce-7ec2-41f4-89a4-c778009a8fa9",
+      "user_id": "user-a-1111",
+      "folder_id": null,
+      "name": "Test-Dl.txt",
+      "original_name": "Test-Dl.txt",
+      "mime_type": "text/plain",
+      "file_category": "Documents",
+      "size_bytes": 25,
+      "storage_path": "user-a-1111/163bf7b8-cc3f-4c1a-be8d-390e209b1fd5.dat",
+      "checksum_sha256": "eed7355f3f38e3df6aaff2fa0bc338c649da7cdb32a1255582016d3ffb47b122",
+      "is_favorite": false,
+      "is_trashed": false,
+      "trashed_at": null,
+      "created_at": "2026-10-06T08:26:01.647Z",
+      "updated_at": "2026-10-06T08:26:01.647Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "2bf70cd6-8d05-4a09-9337-f9c17aab1dae",
+      "user_id": "user-a-1111",
+      "event_type": "security_update",
+      "details": "Updated profile picture",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.824Z"
+    },
+    {
+      "id": "53b62435-8f37-4674-ad65-e6f0a3c08b72",
+      "user_id": "user-a-1111",
+      "event_type": "security_update",
+      "details": "Removed profile picture",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.803Z"
+    },
+    {
+      "id": "b9b9350e-4ed3-4c17-b298-5bae9a3f5e69",
+      "user_id": "user-b-2222",
+      "event_type": "security_update",
+      "details": "Removed profile picture",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.793Z"
+    },
+    {
+      "id": "21f30273-44c5-42df-8bfa-9007415c47e9",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.787Z"
+    },
+    {
+      "id": "bc476f20-3be5-4765-a8e2-068a2560df5e",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.728Z"
+    },
+    {
+      "id": "e52bde98-95e0-47cf-947c-371fb2c99987",
+      "user_id": "user-a-1111",
+      "event_type": "logout",
+      "details": "User logged out",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.642Z"
+    },
+    {
+      "id": "ed1b17c1-4bdf-4c45-a4ad-4dd3b839ced2",
+      "user_id": "user-a-1111",
+      "event_type": "security_update",
+      "details": "Updated profile picture",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.625Z"
+    },
+    {
+      "id": "1dc6d8b1-3c62-4579-95a9-5793cca450a4",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-07T05:01:55.597Z"
+    },
+    {
+      "id": "dd822636-e87b-466c-9eba-49ef2b4888e0",
+      "user_id": "user-a-1111",
+      "event_type": "permanent_delete",
+      "details": "Permanently deleted: Renamed-SecureNest-Report-2243.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.394Z"
+    },
+    {
+      "id": "ff604778-45b3-49ca-b999-dba776ad5e47",
+      "user_id": "user-a-1111",
+      "event_type": "restore",
+      "details": "Restored from trash: Renamed-SecureNest-Report-2243.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.391Z"
+    },
+    {
+      "id": "0461992a-4d4a-4fa2-8a25-fd5e30946d6c",
+      "user_id": "user-a-1111",
+      "event_type": "delete",
+      "details": "Moved to trash: Renamed-SecureNest-Report-2243.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.378Z"
+    },
+    {
+      "id": "8c6c8643-e3e3-48d9-935a-fc27a1ceda4f",
+      "user_id": "user-a-1111",
+      "event_type": "rename",
+      "details": "Renamed file SecureNest-Report-2243.pdf to Renamed-SecureNest-Report-2243.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.371Z"
+    },
+    {
+      "id": "735a5a00-f9d3-476a-adf5-85473dc6b32c",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.353Z"
+    },
+    {
+      "id": "3a7822b6-c6bc-480d-a0c4-dc9fc2be9492",
+      "user_id": "user-a-1111",
+      "event_type": "download",
+      "details": "Downloaded file: SecureNest-Report-2243.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.270Z"
+    },
+    {
+      "id": "dea125fd-5a89-4e60-b735-2c6a0af58341",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: SecureNest-Report-2243.pdf (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.254Z"
+    },
+    {
+      "id": "cd80d0de-604b-4c63-bb9a-8f9f65a70f36",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:52.229Z"
+    },
+    {
+      "id": "08719d07-eb20-4ce2-8ac8-ae13b78c1444",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:35.735Z"
+    },
+    {
+      "id": "d11f7667-eac2-438c-9952-8a0ee076efd7",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:20.359Z"
+    },
+    {
+      "id": "cdd23ee8-6028-466c-a35e-fa5c4455619d",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:15.359Z"
+    },
+    {
+      "id": "f167b818-03ee-4d85-a8a2-7235fdd389cb",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:04.393Z"
+    },
+    {
+      "id": "c30493e2-b67b-45b8-8708-b6ef0700b90d",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:27:04.311Z"
+    },
+    {
+      "id": "982b71ec-529a-49ce-8671-89c440ac4aad",
+      "user_id": "user-a-1111",
+      "event_type": "permanent_delete",
+      "details": "Permanently deleted: Renamed-SecureNest-Report-5232.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.389Z"
+    },
+    {
+      "id": "45d19c28-bdae-440b-b28f-b18cd931a515",
+      "user_id": "user-a-1111",
+      "event_type": "restore",
+      "details": "Restored from trash: Renamed-SecureNest-Report-5232.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.384Z"
+    },
+    {
+      "id": "f8a6b8a6-fafe-4ab5-9a14-3a4e116fe428",
+      "user_id": "user-a-1111",
+      "event_type": "delete",
+      "details": "Moved to trash: Renamed-SecureNest-Report-5232.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.371Z"
+    },
+    {
+      "id": "cb95cdd9-5a44-4b48-8a26-166211cdc515",
+      "user_id": "user-a-1111",
+      "event_type": "rename",
+      "details": "Renamed file SecureNest-Report-5232.pdf to Renamed-SecureNest-Report-5232.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.363Z"
+    },
+    {
+      "id": "ef2af592-2977-4272-8d43-75cd9c1c64f4",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.344Z"
+    },
+    {
+      "id": "81828e3e-931a-418f-826c-4abe38a2e3ff",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: SecureNest-Report-5232.pdf (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.236Z"
+    },
+    {
+      "id": "bfedd81f-bb11-4b31-a66f-55f41303f8af",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:55.217Z"
+    },
+    {
+      "id": "abd1cbb5-da76-4b1e-8e3a-7dbe4d3721e5",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:01.734Z"
+    },
+    {
+      "id": "c35fc4fa-ba03-4cb6-b10b-b4cae8021f15",
+      "user_id": "user-a-1111",
+      "event_type": "download",
+      "details": "Downloaded file: Test-Dl.txt",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:01.657Z"
+    },
+    {
+      "id": "adf3bee3-66c6-4187-93f3-109337e79d2b",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: Test-Dl.txt (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:01.647Z"
+    },
+    {
+      "id": "1a6a362e-e65f-4bb4-a506-c094151bb66c",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:26:01.633Z"
+    },
+    {
+      "id": "c94d6933-99e8-4457-a8c3-3541aaa0ddde",
+      "user_id": "user-a-1111",
+      "event_type": "permanent_delete",
+      "details": "Permanently deleted: Renamed-SecureNest-Report-0814.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:50.952Z"
+    },
+    {
+      "id": "2fe1ea72-220a-474a-be7c-9f7f4cfe86a0",
+      "user_id": "user-a-1111",
+      "event_type": "rename",
+      "details": "Renamed file SecureNest-Report-0814.pdf to Renamed-SecureNest-Report-0814.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:50.946Z"
+    },
+    {
+      "id": "5dc86c3b-ae55-4ee0-920b-1ef4fe476d80",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:50.905Z"
+    },
+    {
+      "id": "fce398b1-580d-48e9-994f-bb42b3ccd4df",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: SecureNest-Report-0814.pdf (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:50.820Z"
+    },
+    {
+      "id": "5cfe34dd-ea85-4042-8a0f-b1a0ca08b30a",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:50.798Z"
+    },
+    {
+      "id": "3430870d-7eeb-43ea-83af-cc38193b25cb",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T08:24:34.440Z"
+    },
+    {
+      "id": "54bc31f5-ea70-4efb-8206-23129524f281",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "security_update",
+      "details": "Updated profile display name to the007",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:08:40.887Z"
+    },
+    {
+      "id": "b063c3c1-15ea-4b88-8b6e-50f87d663304",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "download",
+      "details": "Downloaded file: f9882df90f2f21eb11e39a7f978fe156f31eacfa.dxs",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:08:14.605Z"
+    },
+    {
+      "id": "174ba67f-697d-43fa-84b7-b2628746a95b",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "download",
+      "details": "Downloaded file: f9882df90f2f21eb11e39a7f978fe156f31eacfa.dxs",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T08:08:14.439Z"
+    },
+    {
+      "id": "b2e57feb-b80a-4ade-a7bb-13dc56c4ed53",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "upload",
+      "details": "Uploaded file: f9882df90f2f21eb11e39a7f978fe156f31eacfa.dxs (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T08:08:10.793Z"
+    },
+    {
+      "id": "1fe7fdb0-b9cb-49b2-9bcc-f982bb516e5e",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "login",
+      "details": "Successful login: akshitroot@gmail.com",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T08:07:45.459Z"
+    },
+    {
+      "id": "b5ccb072-fefc-48c3-ae03-13713d6dc069",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "logout",
+      "details": "User logged out",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:58:02.343Z"
+    },
+    {
+      "id": "c6173861-d8ce-4608-8391-3806b7aa45eb",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "download",
+      "details": "Downloaded file: NEWUS (3).pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:55:21.773Z"
+    },
+    {
+      "id": "25d8b167-8d7a-4b7b-9007-7d79f7b8f67f",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "upload",
+      "details": "Uploaded file: NEWUS (3).pdf (7.55 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:53:26.714Z"
+    },
+    {
+      "id": "e6ab7e73-1a2f-47c8-8205-52c883c56a8e",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "upload",
+      "details": "Uploaded file: grub6-a729f54556016bb4dc1e9210ace0df3d.webp (0.03 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:51:40.835Z"
+    },
+    {
+      "id": "8a62e5a0-6de1-4573-a1b0-0d3b0174c1c3",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "permanent_delete",
+      "details": "Permanently deleted: q1_statement_certified.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.103Z"
+    },
+    {
+      "id": "7ed1a55d-e400-4338-a9a5-7517eacf2e4d",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "restore",
+      "details": "Restored from trash: q1_statement_certified.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.099Z"
+    },
+    {
+      "id": "49e7ec27-4b35-41d0-a77a-d16692ed78ea",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "delete",
+      "details": "Moved to trash: q1_statement_certified.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.093Z"
+    },
+    {
+      "id": "0d35ecd4-3779-4b7d-8e88-a6240e135cc6",
+      "user_id": "cb717648-675c-4b1f-85be-346e78cf0a93",
+      "event_type": "signup",
+      "details": "User account created: bob_1791272530017@cloud.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.071Z"
+    },
+    {
+      "id": "1b536b1d-5d3b-4c02-ad75-f25b9749448f",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "download",
+      "details": "Downloaded file: q1_statement_certified.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.014Z"
+    },
+    {
+      "id": "3a2979e6-9814-4228-b90d-1645bdd07be3",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "rename",
+      "details": "Renamed file q1_statement.pdf to q1_statement_certified.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:10.008Z"
+    },
+    {
+      "id": "488ad2f5-ea62-4c48-b9dc-8e742e690c57",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "upload",
+      "details": "Uploaded file: q1_statement.pdf (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:09.990Z"
+    },
+    {
+      "id": "8a85056c-d5d0-42a3-b9e2-291f6f87052d",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "create_folder",
+      "details": "Created folder: Financials",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:09.983Z"
+    },
+    {
+      "id": "405d120d-13b4-46cd-8b5e-1c2f22b713d6",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "event_type": "signup",
+      "details": "User account created: alice_1791272529818@cloud.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:42:09.969Z"
+    },
+    {
+      "id": "170f92d7-a573-45ed-806a-d311915ea74e",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "event_type": "signup",
+      "details": "User account created: akshitroot@gmail.com",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:24:43.613Z"
+    },
+    {
+      "id": "b5c35b09-81cb-475e-87d3-ad7a4efb6f3d",
+      "user_id": "user-a-1111",
+      "event_type": "logout",
+      "details": "User logged out",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:24:10.577Z"
+    },
+    {
+      "id": "73dbe66d-67ae-4cd1-836f-a05f1bae3b77",
+      "user_id": "user-a-1111",
+      "event_type": "restore",
+      "details": "Restored from trash: acb25688-5c26-4042-8410-f563168fc8da.png",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:23:46.243Z"
+    },
+    {
+      "id": "e1107794-5141-44a3-af59-02f0482616aa",
+      "user_id": "user-a-1111",
+      "event_type": "delete",
+      "details": "Moved to trash: acb25688-5c26-4042-8410-f563168fc8da.png",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:23:41.177Z"
+    },
+    {
+      "id": "fa71ec78-d57e-4be5-8ee4-fe1978c24919",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: acb25688-5c26-4042-8410-f563168fc8da.png (1.55 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:23:34.940Z"
+    },
+    {
+      "id": "5a7eee9f-7051-4b0a-a719-42bf4cf24cf6",
+      "user_id": "user-a-1111",
+      "event_type": "create_folder",
+      "details": "Created folder: new file",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:22:31.648Z"
+    },
+    {
+      "id": "6303ac32-f334-4d0a-a886-01f7a1ce7596",
+      "user_id": "user-a-1111",
+      "event_type": "rename",
+      "details": "Renamed file index.html to index.html",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:22:04.708Z"
+    },
+    {
+      "id": "2bd726ab-f281-469a-a1ec-f8e8d766e624",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: index.html (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:21:57.046Z"
+    },
+    {
+      "id": "768aa6da-fce6-4937-afa6-7d2e28eb7ce1",
+      "user_id": "user-a-1111",
+      "event_type": "download",
+      "details": "Downloaded file: Test-Doc-1.txt",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:21:26.267Z"
+    },
+    {
+      "id": "557762f7-e01f-4543-bd11-d2e80c786759",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: 3.pdf (0.43 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "severity": "info",
+      "created_at": "2026-10-06T07:21:19.600Z"
+    },
+    {
+      "id": "49d28ccd-439d-4cd4-bc73-d831048900ca",
+      "user_id": "user-a-1111",
+      "event_type": "download",
+      "details": "Downloaded file: Test-Doc-1.txt",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:21:13.935Z"
+    },
+    {
+      "id": "81dbbafb-e51c-4adb-9331-b70608912fa5",
+      "user_id": "user-a-1111",
+      "event_type": "download",
+      "details": "Downloaded file: Test-Doc-1.txt",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:21:08.400Z"
+    },
+    {
+      "id": "96d1249d-9f54-4158-8154-5cb7cd772980",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Switched to active session: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Demo Switcher",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:59.029Z"
+    },
+    {
+      "id": "69ef4a2b-7cb1-4ded-b97c-2456aa9167ea",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "restore",
+      "details": "Restored from trash: quarterly_audit_final.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.337Z"
+    },
+    {
+      "id": "8b6bf363-9fc0-4884-84af-bc7346782102",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "delete",
+      "details": "Moved to trash: quarterly_audit_final.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.323Z"
+    },
+    {
+      "id": "c80b9efa-3414-4109-bade-fb7a8f275447",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "rename",
+      "details": "Renamed file quarterly_audit.pdf to quarterly_audit_final.pdf",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Browser",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.317Z"
+    },
+    {
+      "id": "8a75ce30-1271-495e-a8f6-b481d4d0afba",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "login",
+      "details": "Successful login: testuser_1791271206862@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.284Z"
+    },
+    {
+      "id": "d1fa07c8-bd77-4071-bbb6-c2147c55b21d",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "logout",
+      "details": "User logged out",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.218Z"
+    },
+    {
+      "id": "8e97b365-82ef-429b-ba48-fb490953c723",
+      "user_id": "user-b-2222",
+      "event_type": "login",
+      "details": "Successful login: userb@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.191Z"
+    },
+    {
+      "id": "9c7ba504-0591-4af8-a037-dfc7e1eff990",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "upload",
+      "details": "Uploaded file: quarterly_audit.pdf (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.090Z"
+    },
+    {
+      "id": "70ac6d7d-aa3f-43f3-8cd2-48632b09e59c",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "event_type": "signup",
+      "details": "User account created: testuser_1791271206862@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:20:07.059Z"
+    },
+    {
+      "id": "85136079-47a3-45ca-b161-33136babb4ea",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:09:05.955Z"
+    },
+    {
+      "id": "c33e24e4-6de3-4a80-8892-8e6af2de1ce1",
+      "user_id": "user-a-1111",
+      "event_type": "upload",
+      "details": "Uploaded file: Test-Doc-1.txt (0.00 MB)",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:07:32.412Z"
+    },
+    {
+      "id": "a18bbb82-ca77-461d-836e-f0cdacfa5300",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Successful login: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "severity": "info",
+      "created_at": "2026-10-06T07:07:32.387Z"
+    },
+    {
+      "id": "ed85c2dd-cbd3-451b-be68-262638844930",
+      "user_id": "user-a-1111",
+      "event_type": "login",
+      "details": "Switched to active session: usera@securenest.internal",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Demo Switcher",
+      "severity": "info",
+      "created_at": "2026-10-06T06:53:50.819Z"
+    }
+  ],
+  "security_events": [
+    {
+      "id": "9dcfb439-c3f2-45ac-8368-3066733d543e",
+      "user_id": "user-a-1111",
+      "event_type": "failed_login_attempt",
+      "description": "Failed login attempt with incorrect password",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "resolved": false,
+      "created_at": "2026-10-06T08:24:06.104Z"
+    },
+    {
+      "id": "5f89ad44-ddb5-4764-87ec-d764c43f41a5",
+      "user_id": "user-b-2222",
+      "event_type": "failed_login_attempt",
+      "description": "Failed login attempt with incorrect password",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "resolved": false,
+      "created_at": "2026-10-06T08:23:58.400Z"
+    },
+    {
+      "id": "96b9a768-3c4a-4516-bcc9-2f248be5ff48",
+      "user_id": "user-a-1111",
+      "event_type": "failed_login_attempt",
+      "description": "Failed login attempt with incorrect password",
+      "ip_address": "127.0.0.1",
+      "user_agent": "node",
+      "resolved": false,
+      "created_at": "2026-10-06T08:23:58.306Z"
+    }
+  ],
+  "active_sessions": [
+    {
+      "id": "0e77a27f-6259-40fb-a8ea-1e6d1a56dc32",
+      "user_id": "user-a-1111",
+      "token_hash": "93025c1788550330ec4c808e4b5d2db9b678197630de288594d87be0a3f540f6",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:07:32.387Z",
+      "created_at": "2026-10-06T07:07:32.387Z"
+    },
+    {
+      "id": "c327fe93-b2a7-4741-b052-c6fa9fe7bd10",
+      "user_id": "user-a-1111",
+      "token_hash": "5112109fdebed8c1bc6d267351b9541d34faba18df4368d4fa1b55643dcd84a0",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:09:05.955Z",
+      "created_at": "2026-10-06T07:09:05.955Z"
+    },
+    {
+      "id": "55f00274-2e02-4cce-a8ee-5605a730513b",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "token_hash": "eb66a3822cf92984331182039a6aaaf541247b9785c1663815b282e3fc927808",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:20:07.059Z",
+      "created_at": "2026-10-06T07:20:07.059Z"
+    },
+    {
+      "id": "da035362-ba1b-4a5f-b795-92da612fda22",
+      "user_id": "user-b-2222",
+      "token_hash": "616b18c86e5d1e182804b9ac3d6ab8dae78419a1420441f4ec267b58ba989582",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:20:07.191Z",
+      "created_at": "2026-10-06T07:20:07.191Z"
+    },
+    {
+      "id": "4ca1ba07-570e-4d3e-b8e5-907d09ab7dc4",
+      "user_id": "5cafdd2d-e25b-4310-9ce1-b74d622c1faf",
+      "token_hash": "eb66a3822cf92984331182039a6aaaf541247b9785c1663815b282e3fc927808",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:20:07.284Z",
+      "created_at": "2026-10-06T07:20:07.284Z"
+    },
+    {
+      "id": "5195e7da-f474-4d29-a284-66f583343ae7",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "token_hash": "2e793635112465878ec67649611322c96b71ba2029e6a175d9af404b05b907b8",
+      "device": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:24:43.613Z",
+      "created_at": "2026-10-06T07:24:43.613Z"
+    },
+    {
+      "id": "2a12d23e-5bc5-460e-ab19-dd1a0cb69b8a",
+      "user_id": "5d5726e0-7921-45b7-b8c4-f91c7e283d65",
+      "token_hash": "4239d84c01235ad93af8d0ba2f676f6df73c610d8cf4a1c206ce6045ba9955df",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:42:09.970Z",
+      "created_at": "2026-10-06T07:42:09.970Z"
+    },
+    {
+      "id": "7b5e51ee-5f21-462b-93c4-064d6cf3a38d",
+      "user_id": "cb717648-675c-4b1f-85be-346e78cf0a93",
+      "token_hash": "43d1b1ea4670b917d5422ec3f09ce3f001b350f69506f1006936ec261bb7b26a",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T07:42:10.071Z",
+      "created_at": "2026-10-06T07:42:10.071Z"
+    },
+    {
+      "id": "f23a5a1d-aa93-4c42-a974-3a7ed5abae9f",
+      "user_id": "4fa69fc4-f540-49c2-97d0-58524af865ee",
+      "token_hash": "3d50acde0fd4c2cb5bf82b6694f060e9f309e267fca903681119247723aa8fa0",
+      "device": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:07:45.459Z",
+      "created_at": "2026-10-06T08:07:45.459Z"
+    },
+    {
+      "id": "25ee7843-143e-476e-83d1-61c396838443",
+      "user_id": "user-a-1111",
+      "token_hash": "3a52d8895811a9743b7862db8e69a33e130a6e0758166c29a847bb4519621145",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:24:34.440Z",
+      "created_at": "2026-10-06T08:24:34.440Z"
+    },
+    {
+      "id": "d451843b-851c-4957-91b5-47f2843651e6",
+      "user_id": "user-a-1111",
+      "token_hash": "ca69607c1c2ca371ac33eb67fcbc825781a92de572c139d53d7c0c28229d0a43",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:24:50.799Z",
+      "created_at": "2026-10-06T08:24:50.799Z"
+    },
+    {
+      "id": "f2a5337f-c5a2-4184-b00b-d4269603cd7c",
+      "user_id": "user-b-2222",
+      "token_hash": "10799d2f7cc307c3ae30e2444c43882daea3d9af512e273b7c80e3a8ee08ff4c",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:24:50.905Z",
+      "created_at": "2026-10-06T08:24:50.905Z"
+    },
+    {
+      "id": "51005e11-b306-44ed-83b8-6482c0bd07bd",
+      "user_id": "user-a-1111",
+      "token_hash": "1b33cd769f301477a8dab6b0f0a0f3c7c8848e7f072ff8c26c1bfddd048693aa",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:26:01.633Z",
+      "created_at": "2026-10-06T08:26:01.633Z"
+    },
+    {
+      "id": "53882184-7c16-477c-bcfd-b9563ad2e53f",
+      "user_id": "user-b-2222",
+      "token_hash": "9655d4ceeeb6c049221412e6232b1beb17256d67cdb62622ccff54f0f4d3c345",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:26:01.734Z",
+      "created_at": "2026-10-06T08:26:01.734Z"
+    },
+    {
+      "id": "8fbbfbaf-8193-4e0a-a2ab-65ec80908079",
+      "user_id": "user-a-1111",
+      "token_hash": "7588ffab8d125dfe774d26faf0b4563bddaf6fa568431cdeb5317b48ebf3e781",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:26:55.217Z",
+      "created_at": "2026-10-06T08:26:55.217Z"
+    },
+    {
+      "id": "a6c8bec5-06d9-48af-861a-134a1b4bd83b",
+      "user_id": "user-b-2222",
+      "token_hash": "62955e2b9dba42abf921f4dcb0589f5a7d7277eada17e97c6eb47da9243cf39a",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:26:55.344Z",
+      "created_at": "2026-10-06T08:26:55.344Z"
+    },
+    {
+      "id": "dd3954f2-d7d3-4a60-bece-476cb637ba12",
+      "user_id": "user-a-1111",
+      "token_hash": "ee7a8a6d61453b56a2faffffadbda7cb48b998c6b48170551e4543b3f065bc2a",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:04.311Z",
+      "created_at": "2026-10-06T08:27:04.311Z"
+    },
+    {
+      "id": "9f27738a-248a-4d56-adf7-b34532096cb0",
+      "user_id": "user-b-2222",
+      "token_hash": "bc4cb5a433aa27ab933c906048322f3b2cc8fd3aafb4b6833b5c18fe1303db51",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:04.393Z",
+      "created_at": "2026-10-06T08:27:04.393Z"
+    },
+    {
+      "id": "9edfe4b6-f816-4ca8-8f08-61623c3bbf3f",
+      "user_id": "user-b-2222",
+      "token_hash": "65b2fedb0af711f08096a14dd45e919ecfae4e31bbebca9cc4944191cb60aeec",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:15.359Z",
+      "created_at": "2026-10-06T08:27:15.359Z"
+    },
+    {
+      "id": "39e3e2f4-a5c1-49e0-934f-a6f541dc6eef",
+      "user_id": "user-b-2222",
+      "token_hash": "995954eb23c7bd5c673e34576899c14dd1b5a4803d050a68bbda672b5e20a9a0",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:20.359Z",
+      "created_at": "2026-10-06T08:27:20.359Z"
+    },
+    {
+      "id": "0457f459-cf38-4b9f-b09b-1fb99c08ee69",
+      "user_id": "user-b-2222",
+      "token_hash": "ba05f0fc298a04926b96cf7f62d26db39b035eb10c0cfd3a52347d6c072c64fd",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:35.735Z",
+      "created_at": "2026-10-06T08:27:35.735Z"
+    },
+    {
+      "id": "6e9fa66e-a858-4406-b8b0-54c29d41c7c9",
+      "user_id": "user-a-1111",
+      "token_hash": "c839eb56338e7464f664c7a973cc38cd2674b7bfc5419c31e05bc09d8def2fe5",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:52.229Z",
+      "created_at": "2026-10-06T08:27:52.229Z"
+    },
+    {
+      "id": "729f8778-17b6-4922-8189-3b8f1257acc4",
+      "user_id": "user-b-2222",
+      "token_hash": "d19e19d8d273dbcb30df7b10bc0b8adf4cef65a4f2550be181f290a548714fa4",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-06T08:27:52.354Z",
+      "created_at": "2026-10-06T08:27:52.354Z"
+    },
+    {
+      "id": "e9d2717c-3522-4321-98e9-9fe4cdc0ee3e",
+      "user_id": "user-a-1111",
+      "token_hash": "108d8d08b837a4167be8cc29e052c24a3e0bd5f6819bd56f1d7f1c5aa1c9c779",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-07T05:01:55.598Z",
+      "created_at": "2026-10-07T05:01:55.598Z"
+    },
+    {
+      "id": "ed27c824-d4c9-46c3-b781-0d5714cb8506",
+      "user_id": "user-a-1111",
+      "token_hash": "108d8d08b837a4167be8cc29e052c24a3e0bd5f6819bd56f1d7f1c5aa1c9c779",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-07T05:01:55.728Z",
+      "created_at": "2026-10-07T05:01:55.728Z"
+    },
+    {
+      "id": "6b95b4b8-d59a-417c-9e30-4030bf7be413",
+      "user_id": "user-b-2222",
+      "token_hash": "321738e31bba6e9674f38602f14cfa575e5ab504a3b0338022f0f0c46a16f947",
+      "device": "node",
+      "ip_address": "127.0.0.1",
+      "last_active": "2026-10-07T05:01:55.788Z",
+      "created_at": "2026-10-07T05:01:55.788Z"
+    }
+  ]
+}
